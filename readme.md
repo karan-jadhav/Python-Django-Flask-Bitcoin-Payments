@@ -1,5 +1,5 @@
 
-GoUrl.io Python's Django Bitcoin Payment Gateway - 
+GoUrl.io Python's Django v1 & v2 Bitcoin Payment Gateway - 
 ------------------------------------------------------
 
 
@@ -10,7 +10,7 @@ The views.py file has two functions:
 * cryptobox_rendering: The view for rendering the template, which contains the cryptobox
 * callback: This is the view which receives and processes the POST data sent within the IPN callback
 
-To render the cryptobox in your template, you will need to send all the requeried parameters to it. (the  value of the hash parameter is returned by the hash function of the provided md5hash.py file). Then, pass all these parameters to the cryptobox_show function of the [cryptobox.js](https://github.com/cryptoapi/Payment-Gateway/blob/master/cryptobox.js) file. 
+To render the cryptobox in your template, you will need to send all the requeried parameters to it. (the  value of the hash parameter is returned by the hash function of the provided md5hash.py file). Then, pass all these parameters to the cryptobox_show function of the [cryptobox.js](https://github.com/cryptoapi/Payment-Gateway/blob/master/js/_source/cryptobox.js) file. 
 
 
 Steps for the Gourl API-integration IPN feature:
